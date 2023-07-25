@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <div><img src="nba.png" width="450" height="200">
+    <title>НБА</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <h1>Результаты НБА 2023/2024</h1>
+  
+    <h2>Выберите номер тура:</h2>
+    <div class="tours">
+        <a href="tour1.html" target="_blank">Тур 1</a>
+        <a href="tour2.html" target="_blank">Тур 2</a>
+
+    </div>
+	<div style="float:right">
+	<a href="feedback.php" target="_blank">Отзывы</a>
+	</div>
+<script src="app.js"></script>
+<script>
+       if ('serviceWorker' in navigator) {
+           window.addEventListener('load', function() {
+               navigator.serviceWorker.register('/serviceWorker.js').then(function(registration) {
+                   // Registration was successful
+               console.log('ServiceWorker registration successful with scope: ', registration.scope);
+             }, function(err) {
+               // registration failed :(
+               console.log('ServiceWorker registration failed: ', err);
+             }).catch(function(err) {
+               console.log(err)
+             });
+           });
+         } else {
+           console.log('service worker is not supported');
+         }
+   </script>
+</body>
+</html>

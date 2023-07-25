@@ -1,0 +1,92 @@
+body {
+    background-color: orange;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: darkblue;
+    text-align: center;
+}
+
+
+.matches {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid darkgreen;
+}
+
+th {
+  background-color: darkgreen;
+  color: white;
+}
+
+.tours, .matches1{
+    display: flex;
+    justify-content: center;
+}
+
+.teams {
+	margin-right: 300px;
+	margin-left: 300px;
+	margin-top: 30px;
+}
+
+a {
+    background-color: darkorange;
+    color: lightblue;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	font-size: xx-large;
+	color: darkgreen;
+}
+
+p2 {
+	font-family: Arial, sans-serif;
+	font-size: large;
+	color: darkgreen;
+}
+
+.output ul li{ 
+ color:#4f4843; 
+ front-size: 32px; 
+ text-align:left; 
+ margin:10px 10px; 
+ border-radius: 15px; 
+ width: 1055px; 
+ height: 120px; 
+ background:white; 
+ padding:10px; 
+  
+  
+} 
+.output ul { 
+ list-style: none; 
+}
